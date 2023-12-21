@@ -1095,7 +1095,7 @@ items:
           href: solution-ideas/articles/interactive-azure-data-explorer.yml
         - name: IoT analytics with Data Explorer
           href: solution-ideas/articles/iot-azure-data-explorer.yml
-        - name: Monitoring with Data Explorer
+        - name: Augmented security, observability, and analytics
           href: solution-ideas/articles/monitor-azure-data-explorer.yml
       - name: Big data analytics with enterprise security
         href: solution-ideas/articles/big-data-analytics-enterprise-grade-security.yml
@@ -3627,7 +3627,7 @@ items:
         - name: Connect Defender for Cloud
           href: /azure/sentinel/connect-defender-for-cloud
           maintainContext: true
-        - name: Connect Microsoft 365 Defender
+        - name: Connect Microsoft Defender XDR
           href: /azure/sentinel/connect-microsoft-365-defender
           maintainContext: true
         - name: Integrate Data Explorer with Sentinel
