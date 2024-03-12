@@ -331,28 +331,6 @@ For more information, see [Overview of Service Bus dead-letter queues][sb-dead-l
 
 **Diagnostics**. Whenever the application moves a message to the dead-letter queue, write an event to the application logs.
 
-## Service Fabric
-
-### A request to a service fails.
-
-**Detection**. The service returns an error.
-
-**Recovery:**
-
-- Locate a proxy again (`ServiceProxy` or `ActorProxy`) and call the service/actor method again.
-- **Stateful service**. Wrap operations on reliable collections in a transaction. If there is an error, the transaction will be rolled back. The request, if pulled from a queue, will be processed again.
-- **Stateless service**. If the service persists data to an external store, all operations need to be idempotent.
-
-**Diagnostics**. Application log
-
-### Service Fabric node is shut down.
-
-**Detection**. A cancellation token is passed to the service's `RunAsync` method. Service Fabric cancels the task before shutting down the node.
-
-**Recovery**. Use the cancellation token to detect shutdown. When Service Fabric requests cancellation, finish any work and exit `RunAsync` as quickly as possible.
-
-**Diagnostics**. Application logs
-
 ## Storage
 
 ### Writing data to Azure Storage fails
@@ -445,7 +423,7 @@ For more information, see [Overview of Service Bus dead-letter queues][sb-dead-l
 
 **Diagnostics**. Use [App Service diagnostic logging][app-service-logging]. Use a service such as [Azure Log Analytics][azure-log-analytics], [Application Insights][app-insights], or [New Relic][new-relic] to help understand the diagnostic logs.
 
-:::image type="icon" source="../_images/github.png" border="false"::: A sample is available [here](https://github.com/mspnp/samples/tree/master/Reliability/FailureModeAnalysisSample). It uses [Polly](https://github.com/App-vNext/Polly) for these exceptions:
+:::image type="icon" source="../_images/github.png" border="false"::: A sample is available [here](https://github.com/mspnp/samples/tree/main/Reliability/FailureModeAnalysisSample). It uses [Polly](https://github.com/App-vNext/Polly) for these exceptions:
 
 - 429 - Throttling
 - 408 - Timeout
@@ -489,7 +467,7 @@ See [Resiliency and dependencies](/azure/well-architected/resiliency/design-resi
 [app-service-configure]: /azure/app-service-web/web-sites-configure
 [app-service-logging]: /azure/app-service-web/web-sites-enable-diagnostic-log
 [app-service-slots]: /azure/app-service-web/web-sites-staged-publishing
-[auto-rest-client-retry]: https://github.com/Azure/autorest/tree/master/docs
+[auto-rest-client-retry]: https://github.com/Azure/autorest/tree/main/docs
 [azure-activity-logs]: /azure/monitoring-and-diagnostics/monitoring-overview-activity-logs
 [azure-alerts]: /azure/monitoring-and-diagnostics/insights-alerts-portal
 [azure-log-analytics]: /azure/log-analytics/log-analytics-overview

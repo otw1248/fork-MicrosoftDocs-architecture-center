@@ -3,6 +3,7 @@ title: Serverless Functions reference architectures
 titleSuffix: Azure Example Scenarios
 description: Learn about serverless reference architectures.
 author: rogeriohc
+ms.author: martinek
 ms.date: 06/22/2020
 ms.topic: conceptual
 ms.service: architecture-center
@@ -170,7 +171,6 @@ The following sections list other serverless and Azure Functions-related referen
 - [Personalized marketing solutions](../ai-ml/idea/personalized-marketing.yml)
 - [Speech transcription with Azure Cognitive Services](/azure/architecture/example-scenario/ai/speech-to-text-transcription-analytics)
 - [Training a Model with AzureML and Azure Functions](/samples/azure-samples/functions-python-azureml-azurefunctions-deeplearning/training-a-model-with-azureml-and-azure-functions/)
-- [Customer Reviews App with Cognitive Services](/samples/azure-samples/functions-customer-reviews/customer-reviews-cognitive-services/)
 - [Enterprise-grade conversational bot](../ai-ml/architecture/conversational-bot.yml)
 - [AI at the Edge](../solution-ideas/articles/ai-at-the-edge.yml)
 - [Mass ingestion and analysis of news feeds on Azure](../example-scenario/ai/news-feed-ingestion-and-near-real-time-analysis.yml)

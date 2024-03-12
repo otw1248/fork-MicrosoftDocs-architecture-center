@@ -140,7 +140,6 @@ For Apache scenarios, see the dedicated article, [Apache scenarios on Azure](/az
 [Choose a data analytics and reporting technology](../data-guide/technology-choices/analysis-visualizations-reporting.md)|Evaluate big-data analytics technology options for Azure, including Jupyter Notebook.|Databases|
 [Citizen AI with Power Platform](../example-scenario/ai/citizen-ai-power-platform.yml)|Learn how to use Azure Machine Learning and Power Platform to quickly create a machine learning proof of concept and production version. Azure Machine Learning provides a hosted Jupyter Notebook environment. |AI|
 [Data analysis in an Azure industrial IoT analytics solution](../guide/iiot-guidance/iiot-data.yml)|View an Azure industrial IoT (IIoT) analytics solution. Use visualization, data trends, dashboards, schematic views, and Jupyter Notebook.|IoT|
-[DevOps for quantum computing](../guide/quantum/devops-for-quantum-computing.yml)|Learn about DevOps requirements for quantum-based apps. You can use Jupyter Notebook to develop quantum components.|DevOps|
 [IoT analytics with Azure Data Explorer](../solution-ideas/articles/iot-azure-data-explorer.yml)|Use Azure Data Explorer for near real-time IoT telemetry analytics on fast-flowing, high-volume streaming data from a wide variety of IoT devices. Analyze data that's stored in Azure Data Explorer by using Jupyter Notebook.|Analytics|
 [Machine learning operations (MLOps) framework to upscale machine learning lifecycle with Azure Machine Learning](../ai-ml/guide/mlops-technical-paper.yml)|Learn how to apply the MLOps maturity model to implement a machine learning solution for predicting product shipping levels. Initial experimental models are developed in Jupyter Notebook. |AI|
 [Many models machine learning with Spark](../ai-ml/idea/many-models-machine-learning-azure-spark.yml)|Learn about many models machine learning in Azure. Azure Machine Learning provides a hosted Jupyter Notebook environment.|AI|
@@ -175,7 +174,6 @@ For Apache scenarios, see the dedicated article, [Apache scenarios on Azure](/az
 |[Choose an Azure multiparty computing service](../guide/technology-choices/multiparty-computing-service.yml)|Decide which multiparty computing services to use for your solution. Includes information about using Kubernetes to manage containers.|Blockchain|
 |[Container CI/CD using Jenkins and Kubernetes on AKS](../solution-ideas/articles/container-cicd-using-jenkins-and-kubernetes-on-azure-container-service.yml)|Get replicable, manageable clusters of containers by orchestrating the deployment of containers with AKS.|DevOps|
 |[Container orchestration for microservices](../microservices/design/orchestration.yml)|Learn how container orchestration makes it easy to manage complex multi-container microservice deployments, scaling, and cluster health. Review options for microservices container orchestration, including AKS.|Microservices|
-|[Create a CI/CD pipeline for AI apps using Azure Pipelines, Docker, and Kubernetes](../data-science-process/ci-cd-flask.yml)|Create a continuous integration and continuous delivery pipeline for AI applications by using Docker and Kubernetes.|AI|
 |[Employee retention with Databricks and Kubernetes](../example-scenario/ai/employee-retention-databricks-kubernetes.yml)|Learn how to use Kubernetes to build, deploy, and monitor a machine learning model for employee attrition that can be integrated with external applications.|Analytics|
 |[GitOps for Azure Kubernetes Service](../example-scenario/gitops-aks/gitops-blueprint-aks.yml)|See a GitOps solution for an AKS cluster. This solution provides full audit capabilities, policy enforcement, and early feedback.|Containers|
 |[Helm-based deployments for Apache NiFi](../guide/data/helm-deployments-apache-nifi.yml)|Use Helm charts when you deploy NiFi on AKS. Helm streamlines the process of installing and managing Kubernetes applications.|Analytics|
@@ -202,7 +200,6 @@ For Apache scenarios, see the dedicated article, [Apache scenarios on Azure](/az
 |[Mainframe file replication and sync on Azure](../solution-ideas/articles/mainframe-azure-file-replication.yml)|Learn about several options for moving, converting, transforming, and storing mainframe and midrange file system data on-premises and in Azure. Store data in Azure Database for MariaDB.|Mainframe|
 |[Modernize mainframe and midrange data](/azure/architecture/example-scenario/mainframe/modernize-mainframe-data-to-azure)|Learn how to modernize IBM mainframe and midrange data and see how to use a data-first approach to migrate this data to Azure. Azure Database for MariaDB is one recommended relational database.|Mainframe|
 |[Replicate and sync mainframe data in Azure](../reference-architectures/migration/sync-mainframe-data-with-azure.yml)|Replicate data while modernizing mainframe and midrange systems. Sync on-premises data with Azure data during modernization. Azure Database for MariaDB is one recommended relational database.|Mainframe|
-|[Scalable and secure WordPress on Azure](../web-apps/hosting-applications/wordpress.yml)|Learn how to use Content Delivery Network and other Azure services to deploy a highly scalable and highly secure installation of WordPress. In this scenario, MariaDB is used as a data store.|Web|
 |[Understand data store models](../guide/technology-choices/data-store-overview.md)|Learn about the high-level differences between the various data storage models found in Azure data services. Azure Database for MariaDB is one example of a relational database.|Databases|
 
 ## MLflow
@@ -360,10 +357,6 @@ For Apache scenarios, see the dedicated article, [Apache scenarios on Azure](/az
 |[End-to-end governance in Azure](../example-scenario/governance/end-to-end-governance-in-azure.yml)|When you use CI/CD pipelines to automate deployments, apply RBAC not just on the Azure Resource Manager side but also earlier in the process when developers check in code. The scenario described uses Terraform for infrastructure as code.|Management|
 |[Gridwich cloud media system](../reference-architectures/media-services/gridwich-architecture.yml)|Learn about a stateless action execution workflow that ingests, processes, and delivers media assets using Terraform Sandwiches and Event Grid Sandwiches.|Media|
 |[Gridwich CI/CD pipeline](../reference-architectures/media-services/gridwich-cicd.yml)|Learn about the guiding principles and considerations for the Gridwich continuous CD/CD pipeline, including information about Terraform.|Media|
-|[Gridwich keys and secrets management](../reference-architectures/media-services/maintain-keys.yml)|Learn about the two types of keys Gridwich uses, and logic apps that add, change, or rotate the keys. Terraform is used in an app that rotates or adds third-party keys.|Media|
-|[Gridwich Media Services setup and scaling](../reference-architectures/media-services/media-services-setup-scale.yml)|Learn how Gridwich uses Azure Media Services V2 and V3 APIs to set up authentication and authorization, and how to scale Media Services resources for media processing. A Terraform file is used in the authentication and authorization process.|Media|
-|[Gridwich pipeline-generated admin scripts](../reference-architectures/media-services/run-admin-scripts.yml)|Learn about Gridwich pipeline-generated admin scripts and how to run them. The pipelines use Terraform to generate and publish the scripts. |Media
-|[Gridwich variable flow](../reference-architectures/media-services/variable-group-terraform-flow.yml)|Learn how Gridwich converts Azure Pipelines pipeline variable group variables to Terraform variables.|Media|
 |[Immutable infrastructure CI/CD using Jenkins and Terraform on Azure](../solution-ideas/articles/immutable-infrastructure-cicd-using-jenkins-and-terraform-on-azure-virtual-architecture-overview.yml)|When you develop apps, use a continuous integration and continuous deployment (CI/CD) pipeline to automatically push changes to Azure virtual machines.|DevOps|
 |[JMeter implementation for a load-testing pipeline](../example-scenario/banking/jmeter-load-testing-pipeline-implementation-reference.yml)|Get an overview of an implementation for a scalable cloud load-testing pipeline. The implementation uses JMeter and Terraform to provision and remove the required infrastructure.|Migration|
 |[SAP workload automation using SUSE on Azure](../solution-ideas/articles/sap-workload-automation-suse.yml)|Use this solution to bolster productivity and facilitate innovation. Terraform is used to deploy the SAP infrastructure into Azure.|SAP|
@@ -375,12 +368,6 @@ For Apache scenarios, see the dedicated article, [Apache scenarios on Azure](/az
 |Architecture|Summary|Technology focus|
 |--|--|--|
 |[Scalable Umbraco CMS web app](../web-apps/hosting-applications/medium-umbraco-web-app.yml)|Run an Umbraco content management system on the Web Apps feature of App Service. Use Azure managed services for a high availability environment.|Web|
-
-## WordPress
-
-|Architecture|Summary|Technology focus|
-|--|--|--|
-|[Scalable and secure WordPress on Azure](../web-apps/hosting-applications/wordpress.yml)|Learn how to use Azure Content Delivery Network and other Azure services to deploy a highly scalable and highly secure installation of WordPress.|Web|
 
 ## Related resources
 
