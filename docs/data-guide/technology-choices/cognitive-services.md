@@ -8,6 +8,7 @@ categories:
   - analytics
 ms.date: 06/01/2023
 ms.topic: conceptual
+ms.collection: ce-skilling-ai-copilot
 ms.service: architecture-center
 ms.subservice: azure-guide
 products:
@@ -128,4 +129,3 @@ Other contributors:
 - [Automate document processing by using Azure Form Recognizer](../../example-scenario/ai/automate-document-processing-azure-form-recognizer.yml)
 - [End-to-end computer vision at the edge for manufacturing](../../reference-architectures/ai/end-to-end-smart-factory.yml)
 - [Image classification on Azure](../../example-scenario/ai/intelligent-apps-image-processing.yml)
-- [Use a speech-to-text transcription pipeline to analyze recorded conversations](../../ai-ml/architecture/speech-to-text-transcription-analytics.yml)
